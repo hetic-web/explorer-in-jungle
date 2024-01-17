@@ -30,3 +30,5 @@ for starting_node in array_starting_node:
         next_node = dict_upstream_downstream[current_node]
         current_path.append(next_node)
     print(current_path)
+
+exit(0)
